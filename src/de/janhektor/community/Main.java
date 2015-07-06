@@ -38,7 +38,7 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onDisable() {
 		this.getLogger().log(Level.INFO, "Community plugin version " + this.getDescription().getVersion()
-			+ " by " + this.getDescription().getAuthors().toString() + " disabled!");
+				+ " by " + this.getDescription().getAuthors().toString() + " disabled!");
 	}
 
 
